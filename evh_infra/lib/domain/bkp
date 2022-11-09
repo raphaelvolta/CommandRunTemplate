@@ -1,0 +1,25 @@
+{
+    "components": [
+        {
+            "type": "deployer",
+            "doCommand": ["cd E:/test", "mkdir"],
+            "healthCheck": ["cd E:/test", "dir"],
+            "undoCommand": ["cd E:/test", ""],
+            "expectedOutput": "",
+            "regEx": "",
+            "successMessage": ""
+        }
+    ]
+}
+
+
+
+
+ElevatedButton(
+    onPressed: () {
+      fileConsumer.processFile();
+    },
+    child: Text("Open file")
+)
+
+

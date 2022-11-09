@@ -1,0 +1,22 @@
+{
+    "components": [
+        {
+            "name": "Create stage table",
+            "doCommand": ["echo \"Hello World\" > E:/test/arquivo_criado_via_flutter.txt"],
+            "healthCheck": ["cd E:/test", "dir"],
+            "undoCommand": ["cd E:/test", ""]
+        },
+        {
+            "name": "Create eventFlow table",
+            "doCommand": ["echo \"Hello World\" > E:/test/arquivo_criado_via_flutter.txt"],
+            "healthCheck": ["cd E:/test", "dir"],
+            "undoCommand": ["cd E:/test", ""]
+        },
+        {
+            "name": "Create IAM",
+            "doCommand": ["echo \"Hello World\" > E:/test/arquivo_criado_via_flutter.txt"],
+            "healthCheck": ["cd E:/test", "dir"],
+            "undoCommand": ["cd E:/test", ""]
+        }
+    ]
+}
